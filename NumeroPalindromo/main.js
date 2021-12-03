@@ -1,4 +1,4 @@
-let numero = 121;
+let numero = 9229;
 
 function Valor(Pnumero){
     let i = Pnumero.toString().length;
