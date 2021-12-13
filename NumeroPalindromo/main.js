@@ -14,8 +14,10 @@ function Valor(Pnumero){
     }
     
     if(recibeValor.join('') == Pnumero){
+        //return true;
         document.write("Es Numero Palindromo");
     }else{
+        //return false;
         document.write("No es Numero Palindromo");
     }
 }
