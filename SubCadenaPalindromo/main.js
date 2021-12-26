@@ -17,7 +17,7 @@ function valor(Pcadena){
     }
 }
 
-console.log(valor("babad"));
+console.log(valor("pabad"));
 //console.log(valor("cbbd"));
 //console.log(valor("a"));
 //console.log(valor("ac"));

@@ -1,4 +1,4 @@
-let V_arregloEntrada = [2,8,5,9];
+/*let V_arregloEntrada = [2,8,5,9];
 
 function mostrarDatos(arregloEntrada){
     
@@ -40,3 +40,18 @@ function mostrarDatos(arregloEntrada){
 }
 
 mostrarDatos(V_arregloEntrada);
+*/
+
+const array = [1,3,9];
+
+function sumarUno(arr){
+    let num = arr.join("");
+    num++;
+    let result = Array.from(String(num), Number);
+    return result;
+}
+
+console.log(sumarUno(array));
+
+
+
