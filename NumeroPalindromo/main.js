@@ -1,4 +1,18 @@
-let numero = 9229;
+function palindromo(str){
+    valor = str+'';
+    result = valor.split('').reverse().join('');
+
+    if(valor === result){
+        console.log(result);
+        return true;
+    }else{
+        return false;
+    }
+}
+
+palindromo(121);
+
+/*let numero = 9229;
 
 function Valor(Pnumero){
     let i = Pnumero.toString().length;
@@ -23,4 +37,4 @@ function Valor(Pnumero){
 }
 
 Valor(numero);
-
+*/
